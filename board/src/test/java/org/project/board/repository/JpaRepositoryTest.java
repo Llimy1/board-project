@@ -4,6 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.project.board.config.JpaConfig;
 import org.project.board.domain.Article;
+import org.project.board.domain.ArticleComment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.context.annotation.Import;
@@ -68,7 +69,7 @@ class JpaRepositoryTest {
 //        //then
 //        assertThat(savedArticle).hasFieldOrPropertyWithValue("hashtag", updateHashtag);
 //    }
-
+//
 //    @DisplayName("delete 테스트")
 //    @Test
 //    void givenTestData_whenDeleting_thenWorksFine() {
